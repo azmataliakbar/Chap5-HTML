@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tags, Headings, Images</title>
+  <style>
+    h1 {
+      color: red;
+      text-align: center;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      text-shadow: 4px 4px 16px rgb(249, 129, 129) ;
+    }
+
+    h2 {
+      color: blue;
+      margin-left: 60px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    h4 {
+      margin-left: 20px;
+    }
+
+    h5 {
+      text-align: center;
+      color: rgb(165, 164, 164);
+    }
+
+    h6 {
+      font-size: 30px;
+      margin-left: 20px;
+      color: blue;
+    }
+
+    .link-container {
+      text-align: center;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    .img {
+      margin-left: 70px;
+      display: block;
+    }
+    .logo {
+      margin-left: 70px;
+      display: block;
+    }
+
+    /* Style for the image container to handle spacing on mobile */
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* Adds space between images */
+    }
+
+    a {
+      color: rgb(246, 132, 151);
+    }
+
+    a:hover {
+      color: rgb(8, 238, 8);
+    }
+
+    /* Responsive styles */
+    @media (max-width: 1024px) {
+      /* For tablets and small laptops */
+      h2, h4, h6 {
+        margin-left: 40px;
+      }
+
+      .img {
+        margin-left: 50px;
+        display: block;
+        width: 100%; /* Ensure images are fluid */
+        height: auto; /* Maintain aspect ratio */
+      }
+    }
+
+    @media (max-width: 768px) {
+      /* For mobile screens */
+      h2, h4, h6 {
+        margin-left: 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h6 {
+        font-size: 24px;
+      }
+      .logo {
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+      }
+      .img {
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+      }
+
+      /* Ensure gap between images on mobile */
+      .image-container {
+        gap: 5px; /* Adds a 20px gap between each image */
+        
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1><u>GIAIC IT PROGRAMS</u></h1>
+<div class="logo">
+  <img src="gov1.png" alt="GIAIC" width="100" height="100">
+</div>
+
+  <h2>GIAIC</h2>
+
+  <h4>Governor Initiative for Artificial Intelligence and Computing</h4>
+
+  <figure>
+    <img class="img" src="cloud1.png" alt="GIAIC" width="900" height="400">
+  </figure>
+
+  <h6>Cloud Native Program</h6>
+  <h4>More Program</h4>
+
+  <!-- Wrapped the images in a container to apply flexbox gap -->
+  <figure class="image-container">
+    <img class="img" src="cloud5.png" alt="GIAIC" width="600" height="300">
+    <img class="img" src="cloud4.png" alt="GIAIC" width="600" height="300">
+    <img class="img" src="cloud3.png" alt="GIAIC" width="600" height="300">
+    <img class="img" src="cloud7.png" alt="GIAIC" width="600" height="300">
+    <img class="img" src="cloud6.png" alt="GIAIC" width="600" height="300">
+    <img class="img" src="cloud2.png" alt="GIAIC" width="600" height="300">
+  </figure>
+
+  <h1><u>Chapter - 5 Tags</u></h1>
+  <h3>"&lt;head&gt;&lt;/head&gt;", "&lt;title&gt;&lt;/title&gt;", "&lt;body&gt;&lt;/body&gt;", "&lt;h1&gt;&lt;/h1&gt;", "&lt;h2&gt;&lt;/h2&gt;", "&lt;h4&gt;&lt;/h4&gt;", "&lt;figure&gt;&lt;/figure&gt;", "&lt;h6&gt;&lt;/h6&gt;", "&lt;img class="" src="" alt="" width="" height=""&gt;&lt;/img class="" src="" alt="" width="" height=""&gt;",</h3>
+  <h3>Opening Tag : &lt;&gt;</h3>
+  <h3>Closing Tag : &lt;/&gt;</h3>
+
+  <div class="link-container">
+    <a href="https://github.com/Ameen-Alam/PIAIC-HTML-CSS-Assignments/?tab=readme-ov-file">GitHub/GIAIC-HTML-CSS-Assignments</a>
+  </div>
+
+  <h5>Author: Azmat Ali</h5>
+</body>
+</html>
+
